@@ -3,10 +3,8 @@
   "short_name": "FoodNinja",
   "start_url": "/index.html",
   "display": "standalone",
-  "_background_color": "#FFE9D2",
-  "background_color": "green",
-   "_theme_color": "#FFE1C4",
-  "theme_color": "red",
+  "background_color": "#FFE9D2",
+   "theme_color": "#FFE1C4",
 
   "orientation": "portrait-primary",
   "icons": [

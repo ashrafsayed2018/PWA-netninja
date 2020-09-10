@@ -73,3 +73,14 @@ input{
 form .input-field{
   margin-top: 30px;
 }
+
+.add-button {
+  width: 20%;
+  padding: 10px 0;
+  border:1px solid #999;
+  outline: none;
+  background: #fff;
+  position: absolute;
+  bottom: 1px;
+  left: 40%;
+}
