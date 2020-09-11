@@ -42,4 +42,11 @@ self.addEventListener('activate' , event => {
 
 self.addEventListener('fetch', event => {
     // console.log('fetch event' , event)
+
+    event.respondWith(
+        caches.match(event.request)
+        .then(cacheRes => {
+          return  cacheRes || fetch(event.request)
+        })
+    )
 })
